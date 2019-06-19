@@ -1,0 +1,36 @@
+img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 30%;
+ margin-bottom: 55px;
+}
+
+body {
+  background-image: url("/Users/apple/Desktop/whatever/photos/download-1.jpg");
+  color: #F9D71C;
+}
+
+p {
+  overflow: hidden;
+  position:relative;
+  right: -40px;
+
+}
+
+.image {
+  width: 100px;
+  height:90px;
+  object-fit:cover;
+  float:left;
+  margin-left: 290px;
+  margin-right:20px;
+  margin-top: 12px;
+  position:relative;
+  right: -420px;
+  flex-direction: column;
+}
+
+.photos {
+  width: 100px;
+}
